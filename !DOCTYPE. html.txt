@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps with Polygon Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input id="pac-input" type="text" placeholder="Search for a place">
+    <div id="map"></div>
+
+    <!-- Load Google Maps API -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=Your-API-KEY&libraries=geometry,places&callback=initMap">
+    </script>
+</body>
+</html>
